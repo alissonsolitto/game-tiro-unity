@@ -109,11 +109,11 @@ Rotaciona o inimigo automaticamente caso a nave não esteja no seu angulo de vis
 	
 # Capturas de tela do jogo
 
-![Screen](https://github.com/alissonsolitto/game-tiro-unity/img/screen0.png)
+![Screen](https://github.com/alissonsolitto/game-tiro-unity/blob/master/img/screen0.png)
 
-![Screen](https://github.com/alissonsolitto/game-tiro-unity/img/screen01.png)
+![Screen](https://github.com/alissonsolitto/game-tiro-unity/blob/master/img/screen01.png)
 
-![Screen](https://github.com/alissonsolitto/game-tiro-unity/img/screen02.png)
+![Screen](https://github.com/alissonsolitto/game-tiro-unity/blob/master/img/screen02.png)
 
 # Atualizações
 - 2017 Ano de Desenvolvimento
