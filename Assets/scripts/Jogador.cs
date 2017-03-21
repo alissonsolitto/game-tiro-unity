@@ -64,22 +64,10 @@ public class Jogador : MonoBehaviour
         mouse.z = transform.position.z;
 
         //Movimentar
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.position += Vector3.left.normalized * velocidade;
-        }
-        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.position += Vector3.right.normalized * velocidade;
-        }
-        else if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
-        {
-            transform.position += Vector3.up.normalized * velocidade;
-        }
-        else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.position += Vector3.down.normalized * velocidade;
-        }
+        float hor = Input.GetAxis("Horizontal");
+        float vert = Input.GetAxis("Vertical");
+
+        transform.position += (new Vector3(hor, vert, 0).normalized * velocidade);        
 
         //Atirar
         if (Input.GetMouseButtonDown(0))
